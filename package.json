@@ -17,18 +17,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VinayakHegde/who-am-i.git"
+    "url": "git+https://github.com/VinayakHegde/who-are-u.git"
   },
   "keywords": [
     "WhoAmI",
-    "who-am-i"
+    "who-are-u"
   ],
   "author": "Vinayak Hegde",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VinayakHegde/who-am-i/issues"
+    "url": "https://github.com/VinayakHegde/who-are-u/issues"
   },
-  "homepage": "https://github.com/VinayakHegde/who-am-i#readme",
+  "homepage": "https://github.com/VinayakHegde/who-are-u#readme",
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "jest": "^26.0.1",
