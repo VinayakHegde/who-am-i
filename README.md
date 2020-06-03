@@ -1,13 +1,13 @@
 # Who are u?
 
-Demonstrates NPM package writting best practice!
+Demonstrates some of the best practices on NPM package writting!
 
 ## install 
 ```
 npm i who-are-u
 ```
 
-usage
+usage - import
 ```
 import WhoAreU, { whoareu } from 'who-are-you';
 
@@ -18,5 +18,15 @@ console.log(whoAreU); // Hey man!
 const whoru = whoareu('woman');
 
 console.log(whoru); // Hey woman!
+
+```
+
+usage - require 
+```
+const wru = require("who-are-u");
+
+console.log(wru.default('man')); // Hey man!
+
+console.log(wru.whoareu('woman'));  // Hey woman!
 
 ```
