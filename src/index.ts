@@ -1,1 +1,1 @@
-export const WhoAmI = (name: string) => `Hello ${name}`;
+export const WhoAreU = (name: string) => `Hey ${name}`;
