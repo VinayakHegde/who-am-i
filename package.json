@@ -1,6 +1,6 @@
 {
   "name": "who-are-u",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Demonstrates some of the best practices on NPM package writting!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
