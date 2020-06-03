@@ -1,6 +1,6 @@
 {
   "name": "who-are-u",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple npm package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,17 +9,20 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VinayakHegde/who-am-i.git"
   },
-  "keywords": ["WhoAmI", "who-am-i"],
+  "keywords": [
+    "WhoAmI",
+    "who-am-i"
+  ],
   "author": "Vinayak Hegde",
   "license": "ISC",
   "bugs": {
